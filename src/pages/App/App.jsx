@@ -11,6 +11,7 @@ import * as NotesAPI from '../../utilities/notes-api';
 export default function App() {
   const [user, setUser] = useState(getUser());
   const [notes, setNotes] = useState([]);
+  
 
   useEffect(()=> {
     async function getAllNotes(){
